@@ -8,36 +8,16 @@ pipeline {
 		 
 		     steps {
 			 
-	           echo "this is stage 1"		 
+	           echo "this is master branch"		 
 			 
 			 
                }		 
 		 
             }
-		stage ("stage-2") {
-		 
-		     steps {
+		
+	}			 
 			 
-	           echo "this is stage 1"		 
-			 
-			 
-               }		 
-		 
-            }
-	
-	stage ("stage-3") {
-		 
-		     steps {
-			 
-	           echo "this is stage 1"		 
-			 
-			 
-                }		 
-		 
-             }
-	}
-	
-	
+			
 }	
 
 
